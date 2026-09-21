@@ -1,0 +1,27 @@
+{
+  "name": "webscrap",
+  "version": "1.0.0",
+  "description": "webscraper avec bootdev",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/index.ts",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BomengoD/web-scrap.git"
+  },
+  "author": "Ruben Boussa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BomengoD/web-scrap/issues"
+  },
+  "homepage": "https://github.com/BomengoD/web-scrap#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  }
+}
